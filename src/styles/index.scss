@@ -1,5 +1,32 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
+.grid {
+    background-color: #74ccf4;
+    border: 1px solid whitesmoke;
+    text-align: center;
+    width: 20px;
+    height: 50px;
+    cursor: pointer;
+    
+}
+
+.file {
+    color: grey;
+    border: 1px solid #eee;
+    text-align: justify;
+}
+
+.water {
+    color: #256d7b
+}
+
+.fire {
+    color: #DC143C
+}
+
+
+
+
 /* 
 
     You can write your own styles here...
