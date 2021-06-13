@@ -1,14 +1,12 @@
 import React from "react";
 import BoardGame from "../component/board";
-
-//include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
+import FireShot from "../component/fire";
+import ShowShips from "../component/showShips";
 import battleShip from "../../img/battleShip.jpg";
 
-//create your first component
 export function Home() {
 	return (
-		<div className="text-center mt-5">
+		<div className="text-center mt-2">
 			<p>
 				<img
 					style={{
@@ -19,11 +17,21 @@ export function Home() {
 					src={battleShip}
 				/>
 			</p>
-			<h1>Battle Ship Game</h1>
+			<h1>BattleShip Board Game</h1>
 			<div>
 				<BoardGame></BoardGame>
 			</div>
 			<p>
+				<div>
+					<div className="row">
+						<div className="col">
+							<FireShot></FireShot>
+						</div>
+						<div className="col">
+							<ShowShips></ShowShips>
+						</div>
+					</div>
+				</div>
 				Made by{" "}
 				<a href="https://github.com/francisco-correa">
 					Francisco Correa
