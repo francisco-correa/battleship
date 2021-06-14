@@ -9,6 +9,7 @@ $ npm run start
 
 You have 5 ships and you can place them randomly on the board
 #### **important**: only in vertical or horizontal way, not diagonal
+<<<<<<< HEAD
 
 
 * ### *Win:* when you sink all the ships.
@@ -17,3 +18,9 @@ You have 5 ships and you can place them randomly on the board
 
 
 
+=======
+
+
+* ### *Win:* when you sink all the ships.
+* ### *Lose:* when you use more than 30 hits and you do not sink the 5 ships.
+>>>>>>> 368f4a560d8fe4e3691ccca6ba1d234c16daa5c6
