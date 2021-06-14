@@ -1,28 +1,54 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
+h1 {
+   font-family: 'Do Hyeon', sans-serif;
+}
+
 .grid {
     background-color: #74ccf4;
     border: 1px solid whitesmoke;
-    text-align: center;
-    width: 20px;
-    height: 50px;
+    color: #00008B;
     cursor: pointer;
-    
+    font-size: 20px;
+    font-family: 'Do Hyeon', sans-serif;
+    height: 50px;
+    justify-content: center;
+    text-align: center;
+    width: 20px;  
 }
 
-.file {
+.line {
     color: grey;
     border: 1px solid #eee;
     text-align: justify;
 }
 
+.turn-on {
+  box-shadow: #f8ffcc 0px 0px 50px 20px;
+}
+
+.light {
+     cursor: pointer;
+}
+
 .water {
-    color: #256d7b
+    background-color: #256d7b;
 }
 
 .fire {
-    color: #DC143C
+    background-color: #DC143C;
 }
+
+.ship {
+    background-color: #686868;
+    opacity: 0,5; 
+}
+
+.ship:hover {
+    background-color:#686850;
+}
+
+
 
 
 

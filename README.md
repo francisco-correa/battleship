@@ -1,17 +1,18 @@
-# BattleShip Board Game
+# :ship:BattleShip Board Game:ship:
 
-### install the npm package and start coding
+### Install the npm package and start coding
 ```
 $ npm install
 $ npm run start
 ```
-### instructions
+### Game Instructions
 
-you have 5 ships and you can place them randomly on the board
-**important**: only in vertical or horizaontal way, not diagonal
+You have 5 ships and you can place them randomly on the board
+#### **important**: only in vertical or horizontal way, not diagonal
 
-*Win:* when you sink all the ships.
-*Lose:* when you use more than 30 hits and you do not sink the 5 ships.
+
+* ### *Win:* when you sink all the ships.
+* ### *Lose:* when you use more than 30 hits and you do not sink the 5 ships.
 
 
 
