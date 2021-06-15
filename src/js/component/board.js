@@ -61,128 +61,128 @@ const BoardGame = () => {
 				</h1>
 			</div>
 			<div className="row line">
-				<div className="col-sm grid">
+				<div className="col-xs col-sm col-md col-lg grid">
 					<i
 						className="fas fa-ship"
 						style={{ marginRight: "10px" }}></i>
 				</div>
-				<div className="col-sm grid">1</div>
-				<div className="col-sm grid">2</div>
-				<div className="col-sm grid">3</div>
-				<div className="col-sm grid">4</div>
-				<div className="col-sm grid">5</div>
-				<div className="col-sm grid">6</div>
-				<div className="col-sm grid">7</div>
-				<div className="col-sm grid">8</div>
-				<div className="col-sm grid">9</div>
+				<div className="col-xs col-sm col-md col-lg grid">1</div>
+				<div className="col-xs col-sm col-md col-lg grid">2</div>
+				<div className="col-xs col-sm col-md col-lg grid">3</div>
+				<div className="col-xs col-sm col-md col-lg grid">4</div>
+				<div className="col-xs col-sm col-md col-lg grid">5</div>
+				<div className="col-xs col-sm col-md col-lg grid">6</div>
+				<div className="col-xs col-sm col-md col-lg grid">7</div>
+				<div className="col-xs col-sm col-md col-lg grid">8</div>
+				<div className="col-xs col-sm col-md col-lg grid">9</div>
 			</div>
 			<div className="row line" onClick={increase}>
-				<div className="col-sm grid">A</div>
-				<div className="col-sm grid ship"></div>
-				<div className="col-sm grid ship"></div>
-				<div className="col-sm grid ship"></div>
-				<div className="col-sm grid ship"></div>
-				<div className="col-sm grid"></div>
-				<div className="col-sm grid"></div>
-				<div className="col-sm grid"></div>
-				<div className="col-sm grid"></div>
-				<div className="col-sm grid"></div>
+				<div className="col-xs col-sm col-md col-lg grid">A</div>
+				<div className="col-xs col-sm col-md col-lg grid ship"></div>
+				<div className="col-xs col-sm col-md col-lg grid ship"></div>
+				<div className="col-xs col-sm col-md col-lg grid ship"></div>
+				<div className="col-xs col-sm col-md col-lg grid ship"></div>
+				<div className="col-xs col-sm col-md col-lg grid"></div>
+				<div className="col-xs col-sm col-md col-lg grid"></div>
+				<div className="col-xs col-sm col-md col-lg grid"></div>
+				<div className="col-xs col-sm col-md col-lg grid"></div>
+				<div className="col-xs col-sm col-md col-lg grid"></div>
 			</div>
 			<div className="row line" onClick={increase}>
-				<div className="col-sm grid">B</div>
-				<div className="col-sm grid"></div>
-				<div className="col-sm grid"></div>
-				<div className="col-sm grid"></div>
-				<div className="col-sm grid"></div>
-				<div className="col-sm grid"></div>
-				<div className="col-sm grid"></div>
-				<div className="col-sm grid"></div>
-				<div className="col-sm grid ship"></div>
-				<div className="col-sm grid ship"></div>
+				<div className="col-xs col-sm col-md col-lg grid">B</div>
+				<div className="col-xs col-sm col-md col-lg grid"></div>
+				<div className="col-xs col-sm col-md col-lg grid"></div>
+				<div className="col-xs col-sm col-md col-lg grid"></div>
+				<div className="col-xs col-sm col-md col-lg grid"></div>
+				<div className="col-xs col-sm col-md col-lg grid"></div>
+				<div className="col-xs col-sm col-md col-lg grid"></div>
+				<div className="col-xs col-sm col-md col-lg grid"></div>
+				<div className="col-xs col-sm col-md col-lg grid ship"></div>
+				<div className="col-xs col-sm col-md col-lg grid ship"></div>
 			</div>
 			<div className="row line" onClick={increase}>
-				<div className="col-sm grid">C</div>
-				<div className="col-sm grid"></div>
-				<div className="col-sm grid"></div>
-				<div className="col-sm grid"></div>
-				<div className="col-sm grid"></div>
-				<div className="col-sm grid"></div>
-				<div className="col-sm grid"></div>
-				<div className="col-sm grid"></div>
-				<div className="col-sm grid"></div>
-				<div className="col-sm grid"></div>
+				<div className="col-xs col-sm col-md col-lg grid">C</div>
+				<div className="col-xs col-sm col-md col-lg grid"></div>
+				<div className="col-xs col-sm col-md col-lg grid"></div>
+				<div className="col-xs col-sm col-md col-lg grid"></div>
+				<div className="col-xs col-sm col-md col-lg grid"></div>
+				<div className="col-xs col-sm col-md col-lg grid"></div>
+				<div className="col-xs col-sm col-md col-lg grid"></div>
+				<div className="col-xs col-sm col-md col-lg grid"></div>
+				<div className="col-xs col-sm col-md col-lg grid"></div>
+				<div className="col-xs col-sm col-md col-lg grid"></div>
 			</div>
 			<div className="row line" onClick={increase}>
-				<div className="col-sm grid">D</div>
-				<div className="col-sm grid"></div>
-				<div className="col-sm grid"></div>
-				<div className="col-sm grid"></div>
-				<div className="col-sm grid"></div>
-				<div className="col-sm grid"></div>
-				<div className="col-sm grid"></div>
-				<div className="col-sm grid ship"></div>
-				<div className="col-sm grid"></div>
-				<div className="col-sm grid"></div>
+				<div className="col-xs col-sm col-md col-lg grid">D</div>
+				<div className="col-xs col-sm col-md col-lg grid"></div>
+				<div className="col-xs col-sm col-md col-lg grid"></div>
+				<div className="col-xs col-sm col-md col-lg grid"></div>
+				<div className="col-xs col-sm col-md col-lg grid"></div>
+				<div className="col-xs col-sm col-md col-lg grid"></div>
+				<div className="col-xs col-sm col-md col-lg grid"></div>
+				<div className="col-xs col-sm col-md col-lg grid ship"></div>
+				<div className="col-xs col-sm col-md col-lg grid"></div>
+				<div className="col-xs col-sm col-md col-lg grid"></div>
 			</div>
 			<div className="row line" onClick={increase}>
-				<div className="col-sm grid">E</div>
-				<div className="col-sm grid"></div>
-				<div className="col-sm grid ship"></div>
-				<div className="col-sm grid"></div>
-				<div className="col-sm grid"></div>
-				<div className="col-sm grid"></div>
-				<div className="col-sm grid"></div>
-				<div className="col-sm grid ship"></div>
-				<div className="col-sm grid"></div>
-				<div className="col-sm grid"></div>
+				<div className="col-xs col-sm col-md col-lg grid">E</div>
+				<div className="col-xs col-sm col-md col-lg grid"></div>
+				<div className="col-xs col-sm col-md col-lg grid ship"></div>
+				<div className="col-xs col-sm col-md col-lg grid"></div>
+				<div className="col-xs col-sm col-md col-lg grid"></div>
+				<div className="col-xs col-sm col-md col-lg grid"></div>
+				<div className="col-xs col-sm col-md col-lg grid"></div>
+				<div className="col-xs col-sm col-md col-lg grid ship"></div>
+				<div className="col-xs col-sm col-md col-lg grid"></div>
+				<div className="col-xs col-sm col-md col-lg grid"></div>
 			</div>
 			<div className="row line" onClick={increase}>
-				<div className="col-sm grid">F</div>
-				<div className="col-sm grid"></div>
-				<div className="col-sm grid ship"></div>
-				<div className="col-sm grid"></div>
-				<div className="col-sm grid"></div>
-				<div className="col-sm grid"></div>
-				<div className="col-sm grid"></div>
-				<div className="col-sm grid ship"></div>
-				<div className="col-sm grid"></div>
-				<div className="col-sm grid"></div>
+				<div className="col-xs col-sm col-md col-lg grid">F</div>
+				<div className="col-xs col-sm col-md col-lg grid"></div>
+				<div className="col-xs col-sm col-md col-lg grid ship"></div>
+				<div className="col-xs col-sm col-md col-lg grid"></div>
+				<div className="col-xs col-sm col-md col-lg grid"></div>
+				<div className="col-xs col-sm col-md col-lg grid"></div>
+				<div className="col-xs col-sm col-md col-lg grid"></div>
+				<div className="col-xs col-sm col-md col-lg grid ship"></div>
+				<div className="col-xs col-sm col-md col-lg grid"></div>
+				<div className="col-xs col-sm col-md col-lg grid"></div>
 			</div>
 			<div className="row line" onClick={increase}>
-				<div className="col-sm grid">G</div>
-				<div className="col-sm grid"></div>
-				<div className="col-sm grid ship"></div>
-				<div className="col-sm grid"></div>
-				<div className="col-sm grid"></div>
-				<div className="col-sm grid"></div>
-				<div className="col-sm grid"></div>
-				<div className="col-sm grid"></div>
-				<div className="col-sm grid"></div>
-				<div className="col-sm grid"></div>
+				<div className="col-xs col-sm col-md col-lg grid">G</div>
+				<div className="col-xs col-sm col-md col-lg grid"></div>
+				<div className="col-xs col-sm col-md col-lg grid ship"></div>
+				<div className="col-xs col-sm col-md col-lg grid"></div>
+				<div className="col-xs col-sm col-md col-lg grid"></div>
+				<div className="col-xs col-sm col-md col-lg grid"></div>
+				<div className="col-xs col-sm col-md col-lg grid"></div>
+				<div className="col-xs col-sm col-md col-lg grid"></div>
+				<div className="col-xs col-sm col-md col-lg grid"></div>
+				<div className="col-xs col-sm col-md col-lg grid"></div>
 			</div>
 			<div className="row line" onClick={increase}>
-				<div className="col-sm grid">H</div>
-				<div className="col-sm grid"></div>
-				<div className="col-sm grid"></div>
-				<div className="col-sm grid"></div>
-				<div className="col-sm grid ship"></div>
-				<div className="col-sm grid ship"></div>
-				<div className="col-sm grid ship"></div>
-				<div className="col-sm grid ship"></div>
-				<div className="col-sm grid ship"></div>
-				<div className="col-sm grid"></div>
+				<div className="col-xs col-sm col-md col-lg grid">H</div>
+				<div className="col-xs col-sm col-md col-lg grid"></div>
+				<div className="col-xs col-sm col-md col-lg grid"></div>
+				<div className="col-xs col-sm col-md col-lg grid"></div>
+				<div className="col-xs col-sm col-md col-lg grid ship"></div>
+				<div className="col-xs col-sm col-md col-lg grid ship"></div>
+				<div className="col-xs col-sm col-md col-lg grid ship"></div>
+				<div className="col-xs col-sm col-md col-lg grid ship"></div>
+				<div className="col-xs col-sm col-md col-lg grid ship"></div>
+				<div className="col-xs col-sm col-md col-lg grid"></div>
 			</div>
 			<div className="row line" onClick={increase}>
-				<div className="col-sm grid">I</div>
-				<div className="col-sm grid"></div>
-				<div className="col-sm grid"></div>
-				<div className="col-sm grid"></div>
-				<div className="col-sm grid"></div>
-				<div className="col-sm grid"></div>
-				<div className="col-sm grid"></div>
-				<div className="col-sm grid"></div>
-				<div className="col-sm grid"></div>
-				<div className="col-sm grid"></div>
+				<div className="col-xs col-sm col-md col-lg grid">I</div>
+				<div className="col-xs col-sm col-md col-lg grid"></div>
+				<div className="col-xs col-sm col-md col-lg grid"></div>
+				<div className="col-xs col-sm col-md col-lg grid"></div>
+				<div className="col-xs col-sm col-md col-lg grid"></div>
+				<div className="col-xs col-sm col-md col-lg grid"></div>
+				<div className="col-xs col-sm col-md col-lg grid"></div>
+				<div className="col-xs col-sm col-md col-lg grid"></div>
+				<div className="col-xs col-sm col-md col-lg grid"></div>
+				<div className="col-xs col-sm col-md col-lg grid"></div>
 			</div>
 		</div>
 	);
