@@ -1,12 +1,28 @@
 import React from "react";
+import "../../styles/index.scss";
 
 const ShowShips = () => {
-	// const destroyer = ship("destroyer", 2);
-	// const submarine = ship("submarine", 3);
-	// const cruiser = ship("cruiser", 3);
-	// const battleship = ship("battleship", 4);
-	// const carrier = ship("carrier", 5);
-	// return [destroyer, submarine, cruiser, battleship, carrier];
+	// let rows = ["A", "B", "C", "D", "E", "F", "G", "H", "I"];
+	// let columns = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+	// let randomRows = Math.floor(Math.random() * rows.length);
+	// let randomColumns = Math.floor(Math.random() * columns.length);
+	// console.log(randomRows);
+	// console.log(randomColumns);
+	// if (rows[randomColumns] == rows || columns[randomRows] == columns) {
+	// 	document.getElementById("fire").style.color = "#256d7b";
+	// 	document.getElementById("water").style.color = "#DC143C";
+	// }
+
+	// const ship = {
+	// 	 "shipTypes": {
+	//     "carrier": { "size": 5, "count": 1 },
+	//     "battleship": { "size": 4, "count": 1 },
+	//     "cruiser": { "size": 3, "count": 1 },
+	//     "submarine": { "size": 3, "count": 1 },
+	//     "destroyer": { "size": 2, "count": 1 },
+	//   },
+	// }
 
 	return (
 		<div>
